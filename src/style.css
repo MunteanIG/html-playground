@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+/*schimbare marcator*/
+li {
+	list-style-image: url('marker.png');
+}
+
+/*extra identare*/
+ul {
+	padding-inline-start: 100px;
+}
+
+/*font*/
+body{
+	font-family:Roboto;
+}
+
+/*linkuri*/
+a {
+	color: #008CBA;
+	font-weight:900;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+}
+
+a:visited {
+	color:#0188B4;
+	font-size:20px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/*traile joc*/
+.ytb {
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*fundal*/
+.box{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	margin-left: 15%;
+    margin-right: 15%;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-top: 30px;
+	background-color:black
+}
+
+
+/*descriere*/
+.txtbox{
+	width:33%;
+	border:10px solid black;
+
+}
+
+/*capturile de ecran*/
+
+.screenshot{
+	justify-content: center;
+	width: 70%;
+	margin-left: 15%;
+    margin-right: 15%;
+	display:flex;
+	padding-top: 10px;
+	flex-direction: column;
+	padding-bottom:30px;
+	background-color:black
+}
+
+/*asezare imagini*/
+
+.poze{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*titluri*/
+
+.titluri{
+	display:flex;
+	justify-content: center;
+}
+
+/*bara de navigare*/
+
+.navbar{
+	background-color:#1D082E;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*formatare link-uri*/
+
+.linkuri{
+	display: flex;
+    justify-content: space-evenly;
+	width: 35%;
+}
+
+/*imagine sticky*/
+
+#imgsticky{
+	position: fixed;
+    bottom: 0px;
+    right: 32px;
+}
+

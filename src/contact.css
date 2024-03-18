@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*descrieri*/
+
+label{
+	color:white;
+	padding:10px;
+}
+
+
+/*fundal*/
+html{
+	background-color:#080D19;
+}
+
+/*font*/
+body{
+	font-family:Roboto;
+}
+
+/*linkuri*/
+
+a {
+	color: #008CBA;
+	font-weight:900;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+}
+
+a:visited {
+	color:#0188B4;
+	font-size:20px;
+}
+
+
+/*bara de navigare*/
+.navbar{
+	background-color:#1D082E;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*formatare font*/
+
+.linkuri{
+	display: flex;
+    justify-content: space-evenly;
+	width: 35%;
+}
+
+/*fundal*/
+
+.box{
+    background-color: black;
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px 20px 30px 20px;
+    flex-direction: column;
+	margin-bottom: 16px;
+	align-items: center;	
+}
+
+/*formular*/
+
+.formular{
+	display:flex;
+	color:white;
+	flex-direction: column;
+	width: 40%;
+}
+
+/*butoane radio*/
+
+.element-form{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*email si facebook*/
+
+.social{
+	display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+ 
+/*font*/
+body{
+	font-family:Raleway;
+ }
+ 
+ 
+ /*linkuri*/
+a {
+	color: #008CBA;
+	font-weight:900;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+}
+
+a:visited {
+	color:#0188B4;
+	font-size:20px;
+}
+
+
+/*bara navigare*/
+.navbar{
+	background-color:#1D082E;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*formatare linkuri*/
+.linkuri{
+	display: flex;
+    justify-content: space-evenly;
+	width: 35%;
+}
+
+/*carti*/
+
+.card{
+	background-color:black;
+	width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*descriere personaje*/
+
+.personaje{
+	display:flex;
+	padding: 0px 40px 0px 40px;
+    flex-direction: column;
+}
+
+
+/*poze personaje*/
+.poze-personaje{
+	display:flex;
+	padding-left: 30px;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*player muzica*/
+embed{
+	width: 200px; 
+	height: 200px;
+}
+
+/*fundal pagina*/
+html{
+	background-color:#080D19;
+}
+
+/*folosire font*/
+body{
+	font-family:Roboto;
+}
+
+
+/*linkuri*/
+a {
+	color: #008CBA;
+	font-weight:900;
+	text-decoration:none;
+	outline:none;
+	font-size:20px;
+}
+
+a:visited {
+	color:#0188B4;
+	font-size:20px;
+}
+
+
+/*bara de navigare*/
+.navbar{
+	background-color:#1D082E;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*formatare link-uri*/
+.linkuri{
+	display: flex;
+    justify-content: space-evenly;
+	width: 35%;
+}
+
+
+/*fundal*/
+.box{
+	padding: 20px 0px 20px 0px;
+	background-color:black;
+	margin-left: 10%;
+    margin-right: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}

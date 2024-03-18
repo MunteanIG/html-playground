@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body id="top" >
+<hr color="#30416D" size=10>
+<div class="navbar">
+	<a href="main.html">
+	<img src="https://sukeban.moe/press/Cyberpunk_Bartender_Action%20VA-11%20HALL-A/images/logo.png"alt="Logo" style="width: 400px" id="top">
+	</a>
+	<span class="linkuri">
+		<a href="#bottom">Mergi la sfârșit</a>
+	</span>
+</div>
+<hr color="#30416D" size=10 id="top">
+<div class="box">
+	<h1 style="color:#F50043;display: flex; justify-content: center;"> Contact </h1>
+	
+	<!-- Formular de contact -->
+	<form action="" method="get" class="formular">
+	
+	<!-- Inputuri text -->
+		<label for="nume">Nume : </label>
+		<input type="text" name="nume" id="nume" required />
+		
+		<label for="prenume">Prenume : </label>
+		<input type="text" name="prenume" id="prenume" required />
+		
+		<label for="email">Email : </label>
+		<input type="email" name="email" id="email" required />
+		
+	<!-- LOista derulanta -->	
+		<label for="platforma">Selectati platforma: </label>
+		<select name="platforma" id="platforma">
+		  <option value="">--Alege o optiune--</option>
+		  <option value="windows">Windows</option>
+		  <option value="linux">Linux</option>
+		  <option value="macos">MacOS</option>
+		  <option value="ps4">Playstation 4</option>
+		  <option value="vita">Vita</option>
+		  <option value="nintendo">Nintendo Switch</option>
+		</select>
+		
+	<!-- Butoane radio -->	
+		<label for="limba">Selectati limba jocului: </label>
+		<span class="element-form">
+			<input type="radio" id="romana" name="romana" value="romana" />
+			<label for="romana">Română</label>
+			
+			<input type="radio" id="engleza" name="engleza" value="engleza" />
+			<label for="engleza">Engleză</label>
+			
+			<input type="radio" id="japoneza" name="japoneza" value="japoneza" />
+			<label for="japoneza">Japoneză</label>
+		</span>
+		
+		<!-- Control text-area -->
+		<label for="problema">Care este problema intampinata? </label>
+		<textarea id="problema" name="problema" rows="10" cols="100" >
+		</textarea>
+		
+		<!-- Control file -->
+		<p>Incarcati o imagine:</p>
+		<span class="element-form">
+			<input type="file" id="imagine" name="imagine">
+			<input type="submit">
+		</span>
+		
+		<!-- Checkbox -->
+		<span class="element-form">
+		    <input type="checkbox" id="termeni" name="termeni" />
+			<label for="termeni">Am luat la cunostiinta termenii si conditiile</label>
+		</span>
+		
+		<!-- Buton submit/reset -->
+		<input type="submit" value="Trimite" />
+		<br>
+		<input type="reset" value="Reseteaza campurile" />
+		
+		
+	</form>
+<br>
+
+<!-- Email si Facebook -->
+<div class="social">
+	<a href="sup@sukeban.moe">Email</a>
+	<a href="https://www.facebook.com/va11halla/">Facebook</a>
+</div>
+
+</div>
+
+</body>
